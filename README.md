@@ -8,3 +8,4 @@ Node index.js or nodemon index.js
 
 then test it using postman or thunderclient 
 
+CRUD operations are in controller folder 
