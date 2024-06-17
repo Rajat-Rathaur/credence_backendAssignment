@@ -4,8 +4,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 5000;
 const connectDB = require('./connector/dbconnection'); 
- const movieRouter = require('./routes/movieRoutes'); 
-
+const movieRouter = require('./routes/movieRoutes'); 
 
 app.use(express.json());
 
